@@ -34,9 +34,9 @@ movement_outputs = output_layer[:, 1:] # second col contains the dx, dy
 
 cross_entropy_loss = tf.nn.sigmoid_cross_entropy_with_logits()
 regression_loss = tf.losses.mean_squared_error()
-regularization_loss = 
+regularization_loss =
 loss = cross_entropy_loss + regression_loss + regularization_loss
 
 
 with tf.Session() as sess:
-    
+
