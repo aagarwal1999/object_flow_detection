@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+
 # getting the data
 data
 labels
